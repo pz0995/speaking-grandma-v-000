@@ -18,7 +18,7 @@ def speak_to_grandma(shout)
 
   elsif shout == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif shout.upcase
+  elsif shout =! phrase.upcase
     return "NO, NOT SINCE 1938!"
   elseshout.downcase
     return "HUH?! SPEAK UP, SONNY!"
