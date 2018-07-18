@@ -15,13 +15,13 @@
 def speak_to_grandma(shout)
   if shout == "I LOVE YOU GRANDMA!"
     return 'I LOVE YOU TOO PUMPKIN!'
-  elsif shout.capitalize?
+  elsif shout.upcase?
     return "HUH?! SPEAK UP, SONNY!"
-  elsif shout.capitalize?
+  elsif shout.upcase?
     return "NO, NOT SINCE 1938!"
-  elsif shout.capitalize?
+  elsif shout.upcase?
     return "NO, NOT SINCE 1938!"
-  else shout === downcase
+  else shout.upcase?
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
