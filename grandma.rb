@@ -21,7 +21,7 @@ def speak_to_grandma(shout)
     return "NO, NOT SINCE 1938!"
   elsif !shout.downcase
     return "NO, NOT SINCE 1938!"
-  else shout.downcase
+  else !shout.downcase
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
