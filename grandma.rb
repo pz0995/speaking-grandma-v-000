@@ -17,9 +17,9 @@ def speak_to_grandma(shout)
     return 'I LOVE YOU TOO PUMPKIN!'
   elsif shout.is_upper?
     return "HUH?! SPEAK UP, SONNY!"
-  elsif shout === char.capitalize then
+  elsif shout == string.upcase then
     return "NO, NOT SINCE 1938!"
-  elsif shoutshout === char.capitalize then
+  elsif shoutshout == string.upcase then
     return "NO, NOT SINCE 1938!"
   else shout === downcase
     return "HUH?! SPEAK UP, SONNY!"
